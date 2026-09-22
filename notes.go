@@ -41,9 +41,9 @@ func main() {
 	// date for the notes directory.
 	notesDirDate := now.Format("02-01-2006")
 
-	// e.g. MONDAY, SEPTEMBER 1
+	// e.g. MONDAY, SEPTEMBER 1, 2026
 	// date for inside the note.
-	notesHeaderDate := strings.ToUpper(now.Format("Monday, January 2"))
+	notesHeaderDate := strings.ToUpper(now.Format("Monday, January 2, 2006"))
 	fmt.Println(notesHeaderDate)
 
 	// 2026-september
