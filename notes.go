@@ -51,7 +51,7 @@ func main() {
 	monthDirDate := strings.ToLower(now.Format("2006-January"))
 
 	absoluteDayDir := filepath.Join(
-		"/Users/benedictestefanhalkin/Developer/lndata/carbon64/md-notes",
+		"/Users/benedictestefanhalkin/Developer/lndata/md-notes/carbon64",
 		monthDirDate,
 		notesDirDate,
 	)
